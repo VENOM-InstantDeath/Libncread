@@ -1,6 +1,6 @@
 #include <ncurses.h>
-#include "nc.h"
-#include "../libvector/vector.h"
+#include "ncread.h"
+#include "libvector/vector.h"
 
 void string_append_char_at(string* S, int index, char ch) {
 	size_t end = S->memsize;
